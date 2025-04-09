@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXP01_22UAI047</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Information</h1>
+        <hr>
+        <div class="profile">
+            <h1>Profile</h1>
+            <img src="logo.png" alt="Profile Picture">
+            <label><b> Name:  </b> Rounak Rafik Harugire </label>
+            <label><b> PRN:   </b>  22UAI034 </label>
+            <label><b> Date of Birth:   </b>  06/09/2003 </label>
+            <label><b> Gender:   </b>  male </label>
+            <label><b> Nationality:   </b>  Indian </label>
+            <label><b> Email:   </b>  rounakharugire3435@gmail.com</label>
+            <label><b> Phone:   </b>  +91 7840942613 </label>
+            <label><b> Address:   </b>  Near Herwad corner , Abdullat </label>
+            <label><b> GitHub:   </b> https://github.com/Rounak-Harugire </label>
+        </div>
+
+        <div class="progress">
+            <h1><b>Progress</b></h1>
+            <table>
+                <tr>
+                    <th>Exam</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>SSC Board</td>
+                    <td>82%</td>
+                </tr>
+                <tr>
+                    <td>HSC Board</td>
+                    <td>67%</td>
+                </tr>
+                <tr>
+                    <td>BTech 1st year</td>
+                    <td> 5.56 CGPA</td>
+                </tr>
+                <tr>
+                    <td>BTech 2nd year</td>
+                    <td> 6.28 CGPA</td>
+                </tr>
+                <tr>
+                    <td>Current CGPA</td>
+                    <td> 6.46 CGPA</td>
+                </tr>
+                <tr>
+                    <td>BTech 3rd year</td>
+                    <td>To be completed</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
