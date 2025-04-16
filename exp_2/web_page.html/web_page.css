@@ -1,0 +1,127 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #90fffd;
+    margin: 0;
+    padding: 0;
+    /* background-image: url('backgroung.jpg'); */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    /* background-image: url('backgroung.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white
+}
+h1,
+h2 {
+    color: black;
+    font-family: 'Times New Roman';
+}
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+label {
+    /* font-weight: bold; */
+    color: black;
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+}
+p {
+    color: #666;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th,
+td {
+    padding: 10px;
+}
+th {
+    background-color: #d102d1;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tr,th,td{
+    border: 1px solid black;
+}
+
+ 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXP02_22UAI034</title>
+    <link rel="stylesheet" href="web_page.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student Information</h1>
+        <hr>
+        <div class="profile">
+            <h1>Profile</h1>
+            <img src="logo.png" alt="Profile Picture">
+            <label><b> Name:  </b> Rounak Rafik Harugire </label>
+            <label><b> PRN:   </b>  22UAI034</label>
+            <label><b> Date of Birth:   </b>  06/09/2003 </label>
+            <label><b> Gender:   </b>  male </label>
+            <label><b> Nationality:   </b>  Indian </label>
+            <label><b> Email:   </b>  rounakharugire3435@gmail.com</label>
+            <label><b> Phone:   </b>  +91 7840942613</label>
+            <label><b> Address:   </b>  Near Herawad corner,Abdullat </label>
+            <label><b> GitHub:   </b> https://github.com/Rounak-Harugire </label>
+        </div>
+
+        <div class="progress">
+            <h1><b>Progress</b></h1>
+            <table>
+                <tr>
+                    <th>Exam</th>
+                    <th>Marks</th>
+                </tr>
+                <tr>
+                    <td>SSC Board</td>
+                    <td>82%</td>
+                </tr>
+                <tr>
+                    <td>HSC Board</td>
+                    <td>68%</td>
+                </tr>
+                <tr>
+                    <td>BTech 1st year</td>
+                    <td> 6.08 CGPA</td>
+                </tr>
+                <tr>
+                    <td>BTech 2nd year</td>
+                    <td> 6.38 CGPA</td>
+                </tr>
+                <tr>
+                    <td>Current CGPA</td>
+                    <td> 6.46 CGPA</td>
+                </tr>
+                <tr>
+                    <td>BTech 3rd year</td>
+                    <td>To be completed</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
